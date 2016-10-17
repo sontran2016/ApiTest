@@ -1,0 +1,763 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="T:API.AutofacConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.AutofacConfig.Configuration(Owin.IAppBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.BundleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            
+            </summary>
+            <param name="bundles"></param>
+        </member>
+        <member name="T:API.FilterConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+        </member>
+        <member name="T:API.RouteConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="T:API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Startup.OAuthOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Startup.ConfigureAuth(Owin.IAppBuilder,Autofac.Integration.WebApi.AutofacWebApiDependencyResolver)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="resolver"></param>
+        </member>
+        <member name="P:API.Startup.container">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Startup.Configuration(Owin.IAppBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:API.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.SwaggerConfig.Register">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.SwaggerConfig.GetXmlCommentsPath">
+            <summary>
+            get xml path comment
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:API.SwaggerConfig.GroupByFriendlyControllerNameFunc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:API.Controllers.BaseApiController">
+            <summary>
+            base api 
+            </summary>
+            <summary>
+             Base API Controller
+            </summary>
+        </member>
+        <member name="T:API.Controllers.SuccessMessage">
+            <summary>
+            Success Message
+            </summary>
+        </member>
+        <member name="P:API.Controllers.SuccessMessage.Message">
+            <summary>
+            Message
+            </summary>
+        </member>
+        <member name="T:API.Controllers.V1.CommonController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.CommonController.#ctor(Service.Interface.Business.IYayYoApplicationService)">
+            <summary>
+            
+            </summary>
+            <param name="yayYoApplicationService"></param>
+        </member>
+        <member name="M:API.Controllers.V1.CommonController.GetBasicCode">
+            <summary>
+            Get basic code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:API.Controllers.V1.ContactController">
+            <summary>
+            contact
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.#ctor(Service.Interface.Business.IContactService,Service.Interface.Business.ISafetySettingService,Service.Interface.Export.IExportExel,Service.Interface.Export.IExportPdf)">
+            <summary>
+            Contact Controller
+            </summary>
+            <param name="contactService"></param>
+            <param name="safetySettingService"></param>
+            <param name="exportExel"></param>
+            <param name="exportPdf"></param>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.GetListContacts(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Boolean)">
+            <summary>
+            Get List Contact
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="yayYoId"></param>
+            <param name="countSkip"></param>
+            <param name="pageSize"></param>
+            <param name="keyword"></param>
+            <param name="keySort"></param>
+            <param name="orderDescending"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.CreateContact(API.Models.Contact.CreateContactModel)">
+            <summary>
+            Create Contact.
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.UpdateContact(API.Models.Contact.EditContactModel)">
+            <summary>
+            Update Contact
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.DeleteContact(System.Int32)">
+            <summary>
+            Delete Contact
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.ImportContact">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.ExportExcel">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactController.ExportPdf">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:API.Controllers.V1.EmailController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.EmailController.#ctor(Service.Interface.SendEmail.IEmailService)">
+            <summary>
+            Email Controller
+            </summary>
+            <param name="emailService"></param>
+        </member>
+        <member name="M:API.Controllers.V1.EmailController.SendEmailWithAttachmentsAsync(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send email with attachments
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.EmailController.SendEmailGroupAsync(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send email to group
+            </summary>
+            <param name="to"></param>
+            <param name="cc"></param>
+            <param name="bcc"></param>
+            <param name="subject"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Controllers.V1.SafetySettingController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.SafetySettingController.#ctor(Service.Interface.Business.ISafetySettingService,Service.Interface.Business.ILogRideInformationService,Service.Interface.Business.ISosGeolocationService,Service.Interface.YayYo.IYayYoService,Service.Interface.Business.IContactService,Service.Interface.Business.ILogSosService)">
+            <summary>
+            Safety Setting Controller
+            </summary>
+            <param name="safetySettingService"></param>
+            <param name="rideInformationService"></param>
+            <param name="sosGeolocationService"></param>
+            <param name="yayYoService"></param>
+            <param name="contactService"></param>
+            <param name="logSosService"></param>
+        </member>
+        <member name="M:API.Controllers.V1.SafetySettingController.AddSafetySettings(API.Models.SafetySetting.CreateSafetySettingModel)">
+            <summary>
+            Insert/update safety settings     
+            </summary>   
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.<br />
+            <b>Description</b>: If update safety settings, please post old cancellation pin and old dupress pin
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.SafetySettingController.ActiveSos(API.Models.SafetySetting.ActiveSosModel)">
+            <summary>
+            Active SOS
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.SafetySettingController.DeactiveSos(API.Models.SafetySetting.DeactiveSosModel)">
+            <summary>
+            Deactive SOS
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="T:API.Controllers.V1.SosGeoLocationController">
+            <summary>
+            sosGeoLocation
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.SosGeoLocationController.#ctor(Service.Interface.Business.ISosGeolocationService,Service.Interface.Business.ILogSosService)">
+            <summary>
+            SosGeoLocation Controller
+            </summary>
+            <param name="sosGeoLocationService"></param>
+            <param name="logSosService"></param>
+        </member>
+        <member name="M:API.Controllers.V1.SosGeoLocationController.InsertListSosGeoLocation(API.Models.SosGeoLocation.CreateListSosGeoLocationModel)">
+            <summary>
+            Insert Sos Location
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.<br />
+            <b>Description</b>: Timestamp must be from a DateTime UTC value
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Filters.AllowNoBasicCodeAttribute">
+            <summary>
+            Allow request with no basic code
+            </summary>
+        </member>
+        <member name="T:API.Filters.ValidateBasicAuthenticationAttribute">
+            <summary>
+            Validate basic authentication
+            </summary>
+        </member>
+        <member name="M:API.Filters.ValidateBasicAuthenticationAttribute.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:API.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.WebApiApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:API.Helpers.MyRestrictiveAuthorizationFilter">
+            <summary>
+            MyRestrictiveAuthorizationFilter
+            </summary>
+        </member>
+        <member name="M:API.Helpers.MyRestrictiveAuthorizationFilter.Authorize(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Authorize
+            </summary>
+            <param name="owinEnvironment"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Models.Common.BasicCodeModel">
+            <summary>
+            Basic code model
+            </summary>
+        </member>
+        <member name="P:API.Models.Common.BasicCodeModel.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:API.Models.Common.BasicCodeModel.Code">
+            <summary>
+            Basic code
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.ListContactResponse">
+            <summary>
+            List YayYo User Response
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponse.Data">
+            <summary>
+            List YayYo User
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponse.TotalRecord">
+            <summary>
+            TotalRecord
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.ListContactResponseModel">
+            <summary>
+            List contact response model
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponseModel.Id">
+            <summary>
+            Id
+            </summary>        
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponseModel.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponseModel.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ListContactResponseModel.Phone">
+            <summary>
+            Phone
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.CreateSafetySettingModel">
+            <summary>
+            Create Safety Setting Model
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.YayYoId">
+            <summary>
+            YayYo User Id
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.PhoneNumber">
+            <summary>
+            Phone Number
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.OldCancellationPin">
+            <summary>
+            Old Cancellation Pin
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.CancellationPin">
+            <summary>
+            Cancellation pin
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.OldDuressPin">
+            <summary>
+            Old Duress pin
+            </summary>        
+        </member>
+        <member name="P:API.Models.SafetySetting.CreateSafetySettingModel.DuressPin">
+            <summary>
+            Duress pin
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.ActiveSosModel">
+            <summary>
+            Active SOS model
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ActiveSosModel.YayYoId">
+            <summary>
+            YayYo User Id
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.ActiveSosModel.GeoLocation">
+            <summary>
+            GeoLocation
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.DeactiveSosModel">
+            <summary>
+            Deactive Sos model
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.DeactiveSosModel.YayYoId">
+            <summary>
+            YayYo User Id
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.DeactiveSosModel.CancellationPin">
+            <summary>
+            Cancellation Pin
+            </summary>
+        </member>
+        <member name="T:API.Models.SafetySetting.DeactiveCancelSosResponseModel">
+            <summary>
+            Deactive cancel SOS model
+            </summary>
+        </member>
+        <member name="P:API.Models.SafetySetting.DeactiveCancelSosResponseModel.IsDuressMode">
+            <summary>
+            Is Duress Mode 
+            true:  Duress Pin is entered correctly
+            false: Duress Pin is entered incorrectly
+            false: Cancel Pin is entered correctly
+            </summary>
+        </member>
+        <member name="T:API.Models.Contact.CreateContactModel">
+            <summary>
+            Create Contact Model
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.CreateContactModel.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.CreateContactModel.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.CreateContactModel.Phone">
+            <summary>
+            Phone
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.CreateContactModel.YayYoId">
+            <summary>
+            Safety YayYoId
+            </summary>
+        </member>
+        <member name="T:API.Models.Contact.EditContactModel">
+            <summary>
+            Edit Contact Model
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.EditContactModel.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.EditContactModel.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.EditContactModel.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="P:API.Models.Contact.EditContactModel.Phone">
+            <summary>
+            Phone
+            </summary>
+        </member>
+        <member name="T:API.Models.SosGeoLocation.CreateSosGeoLocationModel">
+            <summary>
+            Create SOS Geolocation Model
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.CreateSosGeoLocationModel.YayYoId">
+            <summary>
+            YayYoId
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.CreateSosGeoLocationModel.Location">
+            <summary>
+            GeoLocation
+            </summary>
+        </member>
+        <member name="T:API.Models.SosGeoLocation.CreateListSosGeoLocationModel">
+            <summary>
+            CreateListSosGeoLocationModel
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.CreateListSosGeoLocationModel.YayYoId">
+            <summary>
+            YayYoId
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.CreateListSosGeoLocationModel.Locations">
+            <summary>
+            GeoLocation
+            </summary>
+        </member>
+        <member name="T:API.Models.SosGeoLocation.SosGeoLocationModel">
+            <summary>
+            SosGeoLocationModel
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.SosGeoLocationModel.Location">
+            <summary>
+            Location
+            </summary>
+        </member>
+        <member name="P:API.Models.SosGeoLocation.SosGeoLocationModel.Timestamp">
+            <summary>
+            CreatedOnUtc
+            </summary>
+        </member>
+        <member name="T:API.Providers.MachineKeyProtectionProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Providers.MachineKeyProtectionProvider.Create(System.String[])">
+            <summary>
+            Create
+            </summary>
+            <param name="purposes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Providers.MachineKeyDataProtector">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Providers.MachineKeyDataProtector.#ctor(System.String[])">
+            <summary>
+            Ctor
+            </summary>
+            <param name="purposes"></param>
+        </member>
+        <member name="M:API.Providers.MachineKeyDataProtector.Protect(System.Byte[])">
+            <summary>
+            Protect
+            </summary>
+            <param name="userData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Providers.MachineKeyDataProtector.Unprotect(System.Byte[])">
+            <summary>
+            Unprotect
+            </summary>
+            <param name="protectedData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Results.Updated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Results.Updated.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Results.Updated.#ctor(System.Web.Http.ApiController,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="controller"></param>
+            <param name="responseData"></param>
+        </member>
+        <member name="M:API.Results.Updated.#ctor(System.Web.Http.ApiController)">
+            <summary>
+            
+            </summary>
+            <param name="controller"></param>
+        </member>
+        <member name="M:API.Results.Updated.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Results.Deleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Results.Deleted.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Results.Deleted.#ctor(System.Web.Http.ApiController)">
+            <summary>
+            
+            </summary>
+            <param name="controller"></param>
+        </member>
+        <member name="M:API.Results.Deleted.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Results.Error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Results.Error.Request">
+            <summary>
+            Request
+            </summary>
+        </member>
+        <member name="M:API.Results.Error.#ctor(System.Web.Http.ApiController,System.Object,System.Net.HttpStatusCode)">
+            <summary>
+            Error
+            </summary>
+            <param name="controller"></param>
+            <param name="responseData"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:API.Results.Error.#ctor(System.Web.Http.ApiController,System.Exception)">
+            <summary>
+            Error
+            </summary>
+            <param name="controller"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:API.Results.Error.#ctor(System.Web.Http.ApiController,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Error
+            </summary>
+            <param name="controller"></param>
+            <param name="exception"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:API.Results.Error.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            ExecuteAsync
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Results.Created">
+            <summary>
+            Created Result, usually used for POST
+            </summary>
+        </member>
+        <member name="P:API.Results.Created.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Results.Created.#ctor(System.Web.Http.ApiController,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="controller"></param>
+            <param name="responseData"></param>
+        </member>
+        <member name="M:API.Results.Created.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Results.Success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Results.Success.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Results.Success.#ctor(System.Web.Http.ApiController,System.Object,System.Net.HttpStatusCode)">
+            <summary>
+            
+            </summary>
+            <param name="controller"></param>
+            <param name="responseData"></param>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:API.Results.Success.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

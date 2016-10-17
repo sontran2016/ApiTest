@@ -1,0 +1,12 @@
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\Core.dll.config
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\Core.dll
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\Core.pdb
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\EntityFramework.dll
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\Newtonsoft.Json.dll
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\EntityFramework.xml
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\bin\Debug\Newtonsoft.Json.xml
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\obj\Debug\Core.dll
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\obj\Debug\Core.pdb
+C:\SonTran\YayYo Safety\YayYo\YayYoSafety\Library\Core\obj\Debug\1.Core.csprojResolveAssemblyReference.cache
