@@ -11,7 +11,7 @@ namespace Service.Implement.Export
 {
     public class ExportPdfService : IExportPdf
     {
-        //public void GeneratePdf(string p_strPath, DataTable p_dtSrc)
+        //public void GeneratePdf(string p_strPath, DataTable p_dtSrc)  //export from file .xlsx
         //{
         //    using (ExcelPackage objExcelPackage = new ExcelPackage())
         //    {

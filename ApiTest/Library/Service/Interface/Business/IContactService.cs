@@ -58,7 +58,7 @@ namespace Service.Interface.Business
         /// <returns></returns>
         Task<List<ContactSearchModel>> GetListAsync(int yayYoId, int? countSkip, int? pageSize, string keyword, string keySort, bool orderDescending);
 
-        Task ImportContactAsyn(Stream data, string fileName);
+        Task<bool> ImportContactAsyn(Stream data, string fileName);
         #endregion
 
         #region sync

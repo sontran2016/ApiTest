@@ -273,7 +273,9 @@ namespace API.Controllers.V1
                         var stream = await file.ReadAsStreamAsync();
                         var fileName = file.Headers.ContentDisposition.FileName.Replace("\"", "");
                         var memoryStream = new MemoryStream(stream.CopyToBytes());
-                        await _contactService.ImportContactAsyn(memoryStream, fileName);
+                        var success = await _contactService.ImportContactAsyn(memoryStream, fileName);
+                        if(!success)
+                            return BadRequest("There is an eror occur while importing contact");
                     }
                     //file.Dispose();
                 }
@@ -312,7 +314,7 @@ namespace API.Controllers.V1
                 //return Ok(bytes);
 
                 //just for test
-                var path = @"C:\SonTran\YayYo Safety\YayYo\YayYoSafety\UI\API\App_Data\Export2.xlsx";
+                var path = @"C:\SonTran\ApiTestGit\ApiTest\ApiTest\UI\API\App_Data\Export2.xlsx";
                 File.WriteAllBytes(path, bytes);
                 return Ok();
             }
@@ -346,7 +348,7 @@ namespace API.Controllers.V1
                 //return Ok(bytes);
 
                 //just for test
-                var path = @"C:\SonTran\YayYo Safety\YayYo\YayYoSafety\UI\API\App_Data\Export2.pdf";
+                var path = @"C:\SonTran\ApiTestGit\ApiTest\ApiTest\UI\API\App_Data\Export2.pdf";
                 File.WriteAllBytes(path, bytes);
                 return Ok();
             }

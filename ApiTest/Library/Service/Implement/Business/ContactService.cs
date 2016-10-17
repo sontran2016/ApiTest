@@ -11,8 +11,9 @@ using Service.CachingLayer;
 using Service.Interface.Business;
 using Service.Models.ContactModel;
 using CsvHelper;
-using AutoMapper;
 using System.Text;
+using System.Data;
+using Excel;
 
 namespace Service.Implement.Business
 {
@@ -131,15 +132,47 @@ namespace Service.Implement.Business
             return result;
         }
 
-        public Task ImportContactAsyn(Stream data, string fileName)
+        public Task<bool> ImportContactAsyn(Stream data, string fileName)   //file type: .xlsx, .xls, csv
         {
             try
             {
+                List<ExcelInfo> records=null;
                 //read file from stream
-                var stream = new StreamReader(data);
-                var csv = new CsvReader(stream);
-                csv.Configuration.RegisterClassMap<ImportContactModelMap>();
-                var records = csv.GetRecords<ExcelInfo>().ToList();
+                if (fileName.EndsWith(".csv"))
+                {
+                    var stream = new StreamReader(data);
+                    var csv = new CsvReader(stream);
+                    csv.Configuration.RegisterClassMap<ImportContactModelMap>();
+                    records = csv.GetRecords<ExcelInfo>().ToList();
+                }
+                else if (fileName.EndsWith(".xlsx") || fileName.EndsWith(".xls"))
+                {
+                    IExcelDataReader excelReader;
+                    if(fileName.EndsWith(".xlsx"))
+                        excelReader = ExcelReaderFactory.CreateOpenXmlReader(data); 
+                    else
+                        excelReader = ExcelReaderFactory.CreateBinaryReader(data);
+                    excelReader.IsFirstRowAsColumnNames = true;
+                    DataSet result = excelReader.AsDataSet();
+                    records = result.Tables[0].AsEnumerable().Select(r => new ExcelInfo
+                    {
+                        PartnerID = r["PartnerID"].ToString(),
+                        Style = r["Style"].ToString(),
+                        PartnerSKU = r["Partner SKU"].ToString(),
+                        UPC = r["UPC"].ToString(),
+                        Description = r["Description"].ToString(),
+                        ColorCode = r["Color Code"].ToString(),
+                        ColorDesc = r["Color Desc"].ToString(),
+                        SizeCode = r["Size Code"].ToString(),
+                        SizeDescription = r["Size Description"].ToString(),
+                        SizeClassDescription = r["Size Class Description"].ToString(),
+                        WeightLBS = r["Weight (LBS)"].ToString(),
+                        PreviewImageURL = r["Preview Image URL"].ToString()
+                    }).ToList();
+                    excelReader.Close();
+                }
+                else
+                    return Task.FromResult(false);
 
                 DbSet<ExcelInfo> dbSetExcelInfo = _context.Set<ExcelInfo>();
                 var list = dbSetExcelInfo.ToList();
@@ -185,58 +218,7 @@ namespace Service.Implement.Business
             }
         }
 
-        //public Task ImportContactAsyn(Stream data, string fileName)
-        //{
-        //    try
-        //    {
-        //        //read file from stream
-        //        var stream = new StreamReader(data);
-        //        var csv = new CsvReader(stream);
-        //        csv.Configuration.RegisterClassMap<ImportContactModelMap>();
-        //        var records = csv.GetRecords<ExcelInfo>().ToList();
-
-        //        DbSet<ExcelInfo> dbSetExcelInfo = _context.Set<ExcelInfo>();
-        //        var list = dbSetExcelInfo.ToList();
-        //        //Mapper.Configuration.CreateMapper();
-        //        //var list = dbSetExcelInfo.SqlQuery("select * from ExcelInfo");
-        //        foreach (var record in records)
-        //        {
-        //            //Add
-        //            if (!list.Any(x => x.PartnerID == record.PartnerID && x.PartnerSKU == record.PartnerSKU))
-        //            {
-        //                dbSetExcelInfo.Add(record);
-        //            }
-        //            //update
-        //            else
-        //            {
-        //                var info = list.Single(x => x.PartnerID == record.PartnerID && x.PartnerSKU == record.PartnerSKU);
-        //                //record.Id = info.Id;
-        //                //info = Mapper.Map<ExcelInfo>(record);
-
-        //                info.PartnerID = record.PartnerID;
-        //                info.ColorDesc = record.ColorDesc;
-        //                info.PartnerSKU = record.PartnerSKU;
-        //                info.PreviewImageURL = record.PreviewImageURL;
-        //                info.SizeClassDescription = record.SizeClassDescription;
-        //                info.SizeCode = record.SizeCode;
-        //                info.SizeDescription = record.SizeDescription;
-        //                info.WeightLBS = record.WeightLBS;
-        //                info.ColorCode = record.ColorCode;
-        //                info.Description = record.Description;
-        //                info.Style = record.Style;
-        //                info.UPC = record.UPC;
-
-        //                _context.Entry(info).State= EntityState.Modified;
-        //            }
-        //        }
-        //        _context.SaveChanges();
-        //        return  Task.FromResult(true);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw  new Exception(ex.Message);
-        //    }
-        //}
+        
         #endregion
 
         #region sync
