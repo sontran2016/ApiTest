@@ -8,6 +8,7 @@ namespace Core.Domain.Business
         /// Group Name
         /// </summary>
         [Required]
+        [MaxLength(50)]
         public string Email { get; set; }
 
         public int? GroupContactId { get; set; }

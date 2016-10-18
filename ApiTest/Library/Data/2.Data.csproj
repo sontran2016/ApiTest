@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="ContextExtension.cs" />
     <Compile Include="Mapping\Business\ContactListMapping.cs" />
+    <Compile Include="Mapping\Business\ExcelInfoMapping.cs" />
     <Compile Include="Mapping\Business\GroupContactMapping.cs" />
     <Compile Include="Mapping\Business\LogRideInformationMapping.cs" />
     <Compile Include="Mapping\Business\LogSosMapping.cs" />
@@ -83,6 +84,10 @@
     <Compile Include="Migrations\201610140705364_AddTableExcelInfo.cs" />
     <Compile Include="Migrations\201610140705364_AddTableExcelInfo.Designer.cs">
       <DependentUpon>201610140705364_AddTableExcelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610180312120_AddTableExcelInfo1.cs" />
+    <Compile Include="Migrations\201610180312120_AddTableExcelInfo1.Designer.cs">
+      <DependentUpon>201610180312120_AddTableExcelInfo1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -136,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610140705364_AddTableExcelInfo.resx">
       <DependentUpon>201610140705364_AddTableExcelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610180312120_AddTableExcelInfo1.resx">
+      <DependentUpon>201610180312120_AddTableExcelInfo1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,7 @@ namespace Core.Domain.Business
         /// Group Name
         /// </summary>
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         public ICollection<ContactList> Contacts { get; set; }

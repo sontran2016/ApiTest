@@ -86,6 +86,9 @@ namespace API
             builder.RegisterType<TaskService>()
               .As<ITaskService>().InstancePerDependency();
 
+            builder.RegisterType<ContactListService>()
+              .As<IContactListService>().InstancePerDependency();
+            
             builder.RegisterType<ExportExelService>()
               .As<IExportExel>().InstancePerDependency();
             builder.RegisterType<ExportPdfService>()

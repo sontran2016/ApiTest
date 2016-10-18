@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
@@ -12,7 +13,6 @@ using System.IO;
 using ImageResizer.ExtensionMethods;
 using Service.Interface.Export;
 using System.Data;
-using System.Web;
 
 namespace API.Controllers.V1
 {
@@ -296,7 +296,7 @@ namespace API.Controllers.V1
         /// <returns></returns>
         [Route("ExportExcel")]
         [HttpGet]
-        public async Task<IHttpActionResult> ExportExcel()
+        public async Task<IHttpActionResult> ExportExcel()  //allow option column Sum
         {
             try
             {
@@ -304,17 +304,18 @@ namespace API.Controllers.V1
                 if (list.Count > 0) list.Remove(list.FirstOrDefault());
                 
                 var dt = new DataTable("Contact List");
-                dt.Columns.AddRange(new DataColumn[] { new DataColumn("Id"), new DataColumn("FirstName"), new DataColumn("LastName"), new DataColumn("Phone") });
+                dt.Columns.AddRange(new DataColumn[] { new DataColumn("Id",typeof(int)), new DataColumn("FirstName"), new DataColumn("LastName"), new DataColumn("Phone") });
                 foreach (var p in list)
                     dt.Rows.Add(p.Id, p.FirstName,p.LastName,p.Phone);
 
                 var ds = new DataSet();
                 ds.Tables.Add(dt);
-                var bytes = await _exportExel.GenerateExcel2010(ds);
+                var optionColumnSum = new List<string>() {"Id"};
+                var bytes = await _exportExel.GenerateExcel2010(ds, optionColumnSum);
                 //return Ok(bytes);
 
                 //just for test
-                var path = @"C:\SonTran\ApiTestGit\ApiTest\ApiTest\UI\API\App_Data\Export2.xlsx";
+                var path = @"C:\SonTran\ApiTestGit2\ApiTest\ApiTest\UI\API\App_Data\Export2.xlsx";
                 File.WriteAllBytes(path, bytes);
                 return Ok();
             }
@@ -348,7 +349,7 @@ namespace API.Controllers.V1
                 //return Ok(bytes);
 
                 //just for test
-                var path = @"C:\SonTran\ApiTestGit\ApiTest\ApiTest\UI\API\App_Data\Export2.pdf";
+                var path = @"C:\SonTran\ApiTestGit2\ApiTest\ApiTest\UI\API\App_Data\Export2.pdf";
                 File.WriteAllBytes(path, bytes);
                 return Ok();
             }

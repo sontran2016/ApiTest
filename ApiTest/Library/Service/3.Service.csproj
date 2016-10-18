@@ -200,6 +200,7 @@
     <Compile Include="Implement\AzureBlob\AzureBlobSavingService.cs" />
     <Compile Include="Implement\BackgroundTask\TaskService.cs" />
     <Compile Include="Implement\BaseServiceWithLogging.cs" />
+    <Compile Include="Implement\Business\ContactListService.cs" />
     <Compile Include="Implement\Business\LogSosService.cs" />
     <Compile Include="Implement\Business\ContactService.cs" />
     <Compile Include="Implement\Business\LogRideInformationService.cs" />
@@ -213,6 +214,7 @@
     <Compile Include="Implement\SendgridEmail\SendgridEmailService.cs" />
     <Compile Include="Implement\Twilio\TwilioService.cs" />
     <Compile Include="Interface\BackgroundTask\ITaskService.cs" />
+    <Compile Include="Interface\Business\IContactListService.cs" />
     <Compile Include="Interface\Business\ILogSosService.cs" />
     <Compile Include="Interface\Business\ILogRideInformationService.cs" />
     <Compile Include="Interface\Business\IContactService.cs" />
@@ -227,6 +229,7 @@
     <Compile Include="Interface\Media\IMediaService.cs" />
     <Compile Include="Interface\SendEmail\IEmailService.cs" />
     <Compile Include="Interface\Twilio\ITwilioService.cs" />
+    <Compile Include="Models\ContactList\ContactListModel.cs" />
     <Compile Include="Models\ContactModel\ContactModel.cs" />
     <Compile Include="Models\LogRideInformation\UserRideInformationModel.cs" />
     <Compile Include="Models\SendgridEmail\SendgridEmailModel.cs" />

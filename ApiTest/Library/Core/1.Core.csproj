@@ -84,6 +84,7 @@
     <Compile Include="BaseEntity.cs" />
     <Compile Include="Domain\Business\Contact.cs" />
     <Compile Include="Domain\Business\ContactList.cs" />
+    <Compile Include="Domain\Business\ExcelInfo.cs" />
     <Compile Include="Domain\Business\GroupContact.cs" />
     <Compile Include="Domain\Business\LogSos.cs" />
     <Compile Include="Domain\Business\LogRideInformation.cs" />

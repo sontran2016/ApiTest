@@ -10456,3 +10456,261 @@ System.Data.SqlClient.SqlException (0x80131904): A connection was successfully e
    at Hangfire.Server.AutomaticRetryProcess.Execute(BackgroundProcessContext context)
 ClientConnectionId:1762df9d-bb1c-4751-880e-050d4296c294
 Error Number:258,State:0,Class:20
+2016-10-18 09:32:18,938 [Worker #3010ac77] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3010ac77' was stopped due to a shutdown request.
+2016-10-18 09:32:18,940 [ServerWatchdog] DEBUG Hangfire.Server.ServerWatchdog [(null)] - Background process 'ServerWatchdog' stopped.
+2016-10-18 09:32:18,950 [Worker #3010ac77] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3010ac77' stopped.
+2016-10-18 09:32:18,941 [Worker #f77b4dcf] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f77b4dcf' was stopped due to a shutdown request.
+2016-10-18 09:32:18,951 [Worker #f77b4dcf] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f77b4dcf' stopped.
+2016-10-18 09:32:18,942 [Worker #97a690b2] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #97a690b2' was stopped due to a shutdown request.
+2016-10-18 09:32:18,951 [Worker #97a690b2] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #97a690b2' stopped.
+2016-10-18 09:32:18,943 [Worker #fc983dc9] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #fc983dc9' was stopped due to a shutdown request.
+2016-10-18 09:32:18,943 [Worker #e6cad8b8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e6cad8b8' was stopped due to a shutdown request.
+2016-10-18 09:32:18,951 [Worker #e6cad8b8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e6cad8b8' stopped.
+2016-10-18 09:32:18,951 [Worker #fc983dc9] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #fc983dc9' stopped.
+2016-10-18 09:32:18,938 [Worker #ebe395a3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ebe395a3' was stopped due to a shutdown request.
+2016-10-18 09:32:18,939 [Worker #2c3d3bc6] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2c3d3bc6' was stopped due to a shutdown request.
+2016-10-18 09:32:18,939 [Worker #cab4ef7a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #cab4ef7a' was stopped due to a shutdown request.
+2016-10-18 09:32:18,952 [Worker #cab4ef7a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #cab4ef7a' stopped.
+2016-10-18 09:32:18,952 [Worker #2c3d3bc6] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2c3d3bc6' stopped.
+2016-10-18 09:32:18,939 [ServerHeartbeat] DEBUG Hangfire.Server.ServerHeartbeat [(null)] - Background process 'ServerHeartbeat' stopped.
+2016-10-18 09:32:18,940 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' was stopped due to a shutdown request.
+2016-10-18 09:32:18,953 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' stopped.
+2016-10-18 09:32:18,940 [Worker #4829b764] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4829b764' was stopped due to a shutdown request.
+2016-10-18 09:32:18,941 [Worker #f5164654] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f5164654' was stopped due to a shutdown request.
+2016-10-18 09:32:18,941 [Worker #e50f954f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e50f954f' was stopped due to a shutdown request.
+2016-10-18 09:32:18,953 [Worker #e50f954f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e50f954f' stopped.
+2016-10-18 09:32:18,953 [Worker #f5164654] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f5164654' stopped.
+2016-10-18 09:32:18,943 [Worker #a437ea96] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a437ea96' was stopped due to a shutdown request.
+2016-10-18 09:32:18,954 [Worker #a437ea96] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a437ea96' stopped.
+2016-10-18 09:32:18,939 [Worker #270eda37] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #270eda37' was stopped due to a shutdown request.
+2016-10-18 09:32:18,939 [DelayedJobScheduler] DEBUG Hangfire.Server.DelayedJobScheduler [(null)] - Background process 'DelayedJobScheduler' stopped.
+2016-10-18 09:32:18,939 [Worker #ecf87151] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ecf87151' was stopped due to a shutdown request.
+2016-10-18 09:32:18,955 [Worker #ecf87151] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ecf87151' stopped.
+2016-10-18 09:32:18,939 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2016-10-18 09:32:18,939 [Hangfire.SqlServer.ExpirationManager] DEBUG Hangfire.SqlServer.ExpirationManager [(null)] - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2016-10-18 09:32:18,942 [Worker #b5277d4c] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #b5277d4c' was stopped due to a shutdown request.
+2016-10-18 09:32:18,942 [Worker #d3e5ca0b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d3e5ca0b' was stopped due to a shutdown request.
+2016-10-18 09:32:18,955 [Worker #d3e5ca0b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d3e5ca0b' stopped.
+2016-10-18 09:32:18,938 [Worker #51de4198] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #51de4198' was stopped due to a shutdown request.
+2016-10-18 09:32:18,956 [Worker #51de4198] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #51de4198' stopped.
+2016-10-18 09:32:18,954 [Worker #270eda37] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #270eda37' stopped.
+2016-10-18 09:32:18,940 [Worker #adb6995e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #adb6995e' was stopped due to a shutdown request.
+2016-10-18 09:32:18,956 [Worker #adb6995e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #adb6995e' stopped.
+2016-10-18 09:32:18,953 [Worker #4829b764] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4829b764' stopped.
+2016-10-18 09:32:18,955 [Worker #b5277d4c] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #b5277d4c' stopped.
+2016-10-18 09:32:18,952 [Worker #ebe395a3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ebe395a3' stopped.
+2016-10-18 09:32:18,940 [Worker #867dab7b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #867dab7b' was stopped due to a shutdown request.
+2016-10-18 09:32:18,957 [Worker #867dab7b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #867dab7b' stopped.
+2016-10-18 09:32:18,944 [Worker #d6d6bf30] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d6d6bf30' was stopped due to a shutdown request.
+2016-10-18 09:32:18,958 [Worker #d6d6bf30] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d6d6bf30' stopped.
+2016-10-18 09:32:18,967 [BackgroundProcessingServer] DEBUG Hangfire.Server.BackgroundProcessingServer [(null)] - Background process 'BackgroundProcessingServer' stopped.
+2016-10-18 09:32:18,968 [6] INFO  Hangfire.BackgroundJobServer [(null)] - Hangfire Server stopped.
+2016-10-18 09:37:42,239 [ServerWatchdog] INFO  Hangfire.Server.ServerWatchdog [(null)] - 1 servers were removed due to timeout
+2016-10-18 09:37:42,249 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 09:37:42,263 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 09:39:29,598 [Worker #4af3a009] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4af3a009' was stopped due to a shutdown request.
+2016-10-18 09:39:29,602 [Worker #4af3a009] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4af3a009' stopped.
+2016-10-18 09:39:29,603 [Worker #511faf68] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #511faf68' was stopped due to a shutdown request.
+2016-10-18 09:39:29,603 [Worker #511faf68] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #511faf68' stopped.
+2016-10-18 09:39:29,603 [Worker #3cfae8c3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3cfae8c3' was stopped due to a shutdown request.
+2016-10-18 09:39:29,603 [Worker #3cfae8c3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3cfae8c3' stopped.
+2016-10-18 09:39:29,598 [Worker #bec02308] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bec02308' was stopped due to a shutdown request.
+2016-10-18 09:39:29,598 [Worker #877ce385] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #877ce385' was stopped due to a shutdown request.
+2016-10-18 09:39:29,604 [Worker #877ce385] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #877ce385' stopped.
+2016-10-18 09:39:29,604 [Worker #bec02308] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bec02308' stopped.
+2016-10-18 09:39:29,599 [Worker #f28143c7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f28143c7' was stopped due to a shutdown request.
+2016-10-18 09:39:29,604 [Worker #f28143c7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f28143c7' stopped.
+2016-10-18 09:39:29,599 [Worker #ce840cfc] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ce840cfc' was stopped due to a shutdown request.
+2016-10-18 09:39:29,605 [Worker #ce840cfc] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ce840cfc' stopped.
+2016-10-18 09:39:29,599 [Worker #207395f8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #207395f8' was stopped due to a shutdown request.
+2016-10-18 09:39:29,607 [Worker #207395f8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #207395f8' stopped.
+2016-10-18 09:39:29,600 [Worker #bf045896] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bf045896' was stopped due to a shutdown request.
+2016-10-18 09:39:29,607 [Worker #bf045896] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bf045896' stopped.
+2016-10-18 09:39:29,600 [Worker #091d0eb3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #091d0eb3' was stopped due to a shutdown request.
+2016-10-18 09:39:29,600 [Worker #11c8c1fb] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #11c8c1fb' was stopped due to a shutdown request.
+2016-10-18 09:39:29,608 [Worker #11c8c1fb] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #11c8c1fb' stopped.
+2016-10-18 09:39:29,607 [Worker #091d0eb3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #091d0eb3' stopped.
+2016-10-18 09:39:29,600 [Worker #fa5c9445] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #fa5c9445' was stopped due to a shutdown request.
+2016-10-18 09:39:29,601 [Worker #99f832b8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #99f832b8' was stopped due to a shutdown request.
+2016-10-18 09:39:29,608 [Worker #fa5c9445] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #fa5c9445' stopped.
+2016-10-18 09:39:29,601 [Worker #8fb3a7bf] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8fb3a7bf' was stopped due to a shutdown request.
+2016-10-18 09:39:29,609 [Worker #8fb3a7bf] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8fb3a7bf' stopped.
+2016-10-18 09:39:29,601 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' was stopped due to a shutdown request.
+2016-10-18 09:39:29,609 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' stopped.
+2016-10-18 09:39:29,601 [ServerHeartbeat] DEBUG Hangfire.Server.ServerHeartbeat [(null)] - Background process 'ServerHeartbeat' stopped.
+2016-10-18 09:39:29,602 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2016-10-18 09:39:29,602 [ServerWatchdog] DEBUG Hangfire.Server.ServerWatchdog [(null)] - Background process 'ServerWatchdog' stopped.
+2016-10-18 09:39:29,598 [Worker #38203296] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #38203296' was stopped due to a shutdown request.
+2016-10-18 09:39:29,610 [Worker #38203296] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #38203296' stopped.
+2016-10-18 09:39:29,599 [Worker #8229c010] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8229c010' was stopped due to a shutdown request.
+2016-10-18 09:39:29,610 [Worker #8229c010] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8229c010' stopped.
+2016-10-18 09:39:29,605 [Worker #d56db73e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d56db73e' was stopped due to a shutdown request.
+2016-10-18 09:39:29,610 [Worker #d56db73e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d56db73e' stopped.
+2016-10-18 09:39:29,608 [Worker #99f832b8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #99f832b8' stopped.
+2016-10-18 09:39:29,602 [Hangfire.SqlServer.ExpirationManager] DEBUG Hangfire.SqlServer.ExpirationManager [(null)] - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2016-10-18 09:39:29,599 [Worker #e324e559] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e324e559' was stopped due to a shutdown request.
+2016-10-18 09:39:29,611 [Worker #e324e559] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #e324e559' stopped.
+2016-10-18 09:39:29,600 [Worker #8a7c8306] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8a7c8306' was stopped due to a shutdown request.
+2016-10-18 09:39:29,612 [Worker #8a7c8306] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8a7c8306' stopped.
+2016-10-18 09:39:29,599 [Worker #51079dc0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #51079dc0' was stopped due to a shutdown request.
+2016-10-18 09:39:29,612 [Worker #51079dc0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #51079dc0' stopped.
+2016-10-18 09:39:29,601 [DelayedJobScheduler] DEBUG Hangfire.Server.DelayedJobScheduler [(null)] - Background process 'DelayedJobScheduler' stopped.
+2016-10-18 09:39:29,617 [BackgroundProcessingServer] DEBUG Hangfire.Server.BackgroundProcessingServer [(null)] - Background process 'BackgroundProcessingServer' stopped.
+2016-10-18 09:39:29,617 [23] INFO  Hangfire.BackgroundJobServer [(null)] - Hangfire Server stopped.
+2016-10-18 09:44:38,106 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 09:44:38,123 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 09:49:38,124 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 09:49:38,134 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 09:51:56,170 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' was stopped due to a shutdown request.
+2016-10-18 09:51:56,170 [Worker #77baf74b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #77baf74b' was stopped due to a shutdown request.
+2016-10-18 09:51:56,170 [Worker #28b1eac8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #28b1eac8' was stopped due to a shutdown request.
+2016-10-18 09:51:56,174 [Worker #28b1eac8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #28b1eac8' stopped.
+2016-10-18 09:51:56,174 [Worker #77baf74b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #77baf74b' stopped.
+2016-10-18 09:51:56,174 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' stopped.
+2016-10-18 09:51:56,170 [Worker #d82ea02b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d82ea02b' was stopped due to a shutdown request.
+2016-10-18 09:51:56,177 [Worker #d82ea02b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d82ea02b' stopped.
+2016-10-18 09:51:56,170 [Worker #f479b6c7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f479b6c7' was stopped due to a shutdown request.
+2016-10-18 09:51:56,170 [Worker #7709052f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #7709052f' was stopped due to a shutdown request.
+2016-10-18 09:51:56,177 [Worker #7709052f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #7709052f' stopped.
+2016-10-18 09:51:56,171 [Worker #df505934] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #df505934' was stopped due to a shutdown request.
+2016-10-18 09:51:56,177 [Worker #df505934] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #df505934' stopped.
+2016-10-18 09:51:56,171 [Worker #84967a09] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #84967a09' was stopped due to a shutdown request.
+2016-10-18 09:51:56,178 [Worker #84967a09] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #84967a09' stopped.
+2016-10-18 09:51:56,172 [Worker #8e9c497a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8e9c497a' was stopped due to a shutdown request.
+2016-10-18 09:51:56,178 [Worker #8e9c497a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8e9c497a' stopped.
+2016-10-18 09:51:56,172 [Worker #542338be] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #542338be' was stopped due to a shutdown request.
+2016-10-18 09:51:56,178 [Worker #542338be] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #542338be' stopped.
+2016-10-18 09:51:56,172 [ServerHeartbeat] DEBUG Hangfire.Server.ServerHeartbeat [(null)] - Background process 'ServerHeartbeat' stopped.
+2016-10-18 09:51:56,173 [Hangfire.SqlServer.ExpirationManager] DEBUG Hangfire.SqlServer.ExpirationManager [(null)] - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2016-10-18 09:51:56,170 [Worker #d0f1e95e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d0f1e95e' was stopped due to a shutdown request.
+2016-10-18 09:51:56,179 [Worker #d0f1e95e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #d0f1e95e' stopped.
+2016-10-18 09:51:56,171 [Worker #9f44f285] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9f44f285' was stopped due to a shutdown request.
+2016-10-18 09:51:56,179 [Worker #9f44f285] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9f44f285' stopped.
+2016-10-18 09:51:56,171 [Worker #dc074ff0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dc074ff0' was stopped due to a shutdown request.
+2016-10-18 09:51:56,180 [Worker #dc074ff0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dc074ff0' stopped.
+2016-10-18 09:51:56,172 [Worker #274902e0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #274902e0' was stopped due to a shutdown request.
+2016-10-18 09:51:56,180 [Worker #274902e0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #274902e0' stopped.
+2016-10-18 09:51:56,172 [Worker #19f799fd] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #19f799fd' was stopped due to a shutdown request.
+2016-10-18 09:51:56,180 [Worker #19f799fd] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #19f799fd' stopped.
+2016-10-18 09:51:56,171 [Worker #6a8e551e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #6a8e551e' was stopped due to a shutdown request.
+2016-10-18 09:51:56,180 [Worker #6a8e551e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #6a8e551e' stopped.
+2016-10-18 09:51:56,171 [Worker #53a424d8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #53a424d8' was stopped due to a shutdown request.
+2016-10-18 09:51:56,181 [Worker #53a424d8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #53a424d8' stopped.
+2016-10-18 09:51:56,173 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2016-10-18 09:51:56,173 [ServerWatchdog] DEBUG Hangfire.Server.ServerWatchdog [(null)] - Background process 'ServerWatchdog' stopped.
+2016-10-18 09:51:56,171 [Worker #9ef8cdd0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9ef8cdd0' was stopped due to a shutdown request.
+2016-10-18 09:51:56,181 [Worker #9ef8cdd0] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9ef8cdd0' stopped.
+2016-10-18 09:51:56,172 [DelayedJobScheduler] DEBUG Hangfire.Server.DelayedJobScheduler [(null)] - Background process 'DelayedJobScheduler' stopped.
+2016-10-18 09:51:56,171 [Worker #068c0be8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #068c0be8' was stopped due to a shutdown request.
+2016-10-18 09:51:56,172 [Worker #f4c50002] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f4c50002' was stopped due to a shutdown request.
+2016-10-18 09:51:56,182 [Worker #f4c50002] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f4c50002' stopped.
+2016-10-18 09:51:56,182 [Worker #068c0be8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #068c0be8' stopped.
+2016-10-18 09:51:56,177 [Worker #f479b6c7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f479b6c7' stopped.
+2016-10-18 09:51:56,171 [Worker #b8077926] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #b8077926' was stopped due to a shutdown request.
+2016-10-18 09:51:56,183 [Worker #b8077926] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #b8077926' stopped.
+2016-10-18 09:51:56,218 [BackgroundProcessingServer] DEBUG Hangfire.Server.BackgroundProcessingServer [(null)] - Background process 'BackgroundProcessingServer' stopped.
+2016-10-18 09:51:56,219 [29] INFO  Hangfire.BackgroundJobServer [(null)] - Hangfire Server stopped.
+2016-10-18 09:52:31,863 [ServerWatchdog] DEBUG Hangfire.Server.ServerWatchdog [(null)] - Background process 'ServerWatchdog' stopped.
+2016-10-18 09:52:31,864 [Worker #8c7dab47] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8c7dab47' was stopped due to a shutdown request.
+2016-10-18 09:52:31,864 [Worker #a245887b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a245887b' was stopped due to a shutdown request.
+2016-10-18 09:52:31,873 [Worker #a245887b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a245887b' stopped.
+2016-10-18 09:52:31,873 [Worker #8c7dab47] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8c7dab47' stopped.
+2016-10-18 09:52:31,868 [Worker #97028a20] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #97028a20' was stopped due to a shutdown request.
+2016-10-18 09:52:31,874 [Worker #97028a20] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #97028a20' stopped.
+2016-10-18 09:52:31,869 [Worker #dfea7736] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dfea7736' was stopped due to a shutdown request.
+2016-10-18 09:52:31,869 [Worker #64f35921] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #64f35921' was stopped due to a shutdown request.
+2016-10-18 09:52:31,875 [Worker #64f35921] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #64f35921' stopped.
+2016-10-18 09:52:31,870 [Worker #2cd67f1b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2cd67f1b' was stopped due to a shutdown request.
+2016-10-18 09:52:31,875 [Worker #2cd67f1b] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2cd67f1b' stopped.
+2016-10-18 09:52:31,870 [Hangfire.SqlServer.ExpirationManager] DEBUG Hangfire.SqlServer.ExpirationManager [(null)] - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2016-10-18 09:52:31,862 [Worker #8bfd382f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8bfd382f' was stopped due to a shutdown request.
+2016-10-18 09:52:31,875 [Worker #8bfd382f] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8bfd382f' stopped.
+2016-10-18 09:52:31,863 [ServerHeartbeat] DEBUG Hangfire.Server.ServerHeartbeat [(null)] - Background process 'ServerHeartbeat' stopped.
+2016-10-18 09:52:31,867 [Worker #3ad7c366] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3ad7c366' was stopped due to a shutdown request.
+2016-10-18 09:52:31,876 [Worker #3ad7c366] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3ad7c366' stopped.
+2016-10-18 09:52:31,867 [Worker #549e4949] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #549e4949' was stopped due to a shutdown request.
+2016-10-18 09:52:31,872 [Worker #c8803b70] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c8803b70' was stopped due to a shutdown request.
+2016-10-18 09:52:31,876 [Worker #c8803b70] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c8803b70' stopped.
+2016-10-18 09:52:31,868 [Worker #941de9df] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #941de9df' was stopped due to a shutdown request.
+2016-10-18 09:52:31,870 [Worker #ea80bcf3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ea80bcf3' was stopped due to a shutdown request.
+2016-10-18 09:52:31,877 [Worker #ea80bcf3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #ea80bcf3' stopped.
+2016-10-18 09:52:31,872 [Worker #490dd270] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #490dd270' was stopped due to a shutdown request.
+2016-10-18 09:52:31,878 [Worker #490dd270] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #490dd270' stopped.
+2016-10-18 09:52:31,864 [Worker #9c327f27] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9c327f27' was stopped due to a shutdown request.
+2016-10-18 09:52:31,871 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2016-10-18 09:52:31,864 [Worker #1ba58948] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #1ba58948' was stopped due to a shutdown request.
+2016-10-18 09:52:31,867 [Worker #718a9a21] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #718a9a21' was stopped due to a shutdown request.
+2016-10-18 09:52:31,878 [Worker #718a9a21] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #718a9a21' stopped.
+2016-10-18 09:52:31,862 [Worker #68c07b5c] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #68c07b5c' was stopped due to a shutdown request.
+2016-10-18 09:52:31,879 [Worker #68c07b5c] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #68c07b5c' stopped.
+2016-10-18 09:52:31,874 [Worker #dfea7736] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dfea7736' stopped.
+2016-10-18 09:52:31,870 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' was stopped due to a shutdown request.
+2016-10-18 09:52:31,879 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' stopped.
+2016-10-18 09:52:31,865 [Worker #20a2fd0e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #20a2fd0e' was stopped due to a shutdown request.
+2016-10-18 09:52:31,878 [Worker #9c327f27] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #9c327f27' stopped.
+2016-10-18 09:52:31,866 [Worker #c710e0d3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c710e0d3' was stopped due to a shutdown request.
+2016-10-18 09:52:31,880 [Worker #c710e0d3] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c710e0d3' stopped.
+2016-10-18 09:52:31,878 [Worker #1ba58948] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #1ba58948' stopped.
+2016-10-18 09:52:31,877 [Worker #941de9df] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #941de9df' stopped.
+2016-10-18 09:52:31,870 [DelayedJobScheduler] DEBUG Hangfire.Server.DelayedJobScheduler [(null)] - Background process 'DelayedJobScheduler' stopped.
+2016-10-18 09:52:31,876 [Worker #549e4949] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #549e4949' stopped.
+2016-10-18 09:52:31,880 [Worker #20a2fd0e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #20a2fd0e' stopped.
+2016-10-18 09:52:31,869 [Worker #971cbac4] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #971cbac4' was stopped due to a shutdown request.
+2016-10-18 09:52:31,881 [Worker #971cbac4] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #971cbac4' stopped.
+2016-10-18 09:52:31,900 [BackgroundProcessingServer] DEBUG Hangfire.Server.BackgroundProcessingServer [(null)] - Background process 'BackgroundProcessingServer' stopped.
+2016-10-18 09:52:31,902 [29] INFO  Hangfire.BackgroundJobServer [(null)] - Hangfire Server stopped.
+2016-10-18 09:59:33,109 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 09:59:33,128 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 10:04:33,130 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 10:04:33,151 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 10:09:33,153 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Aggregating records in 'Counter' table...
+2016-10-18 10:09:33,161 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Records from the 'Counter' table aggregated.
+2016-10-18 10:10:46,587 [Worker #a5406f99] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a5406f99' was stopped due to a shutdown request.
+2016-10-18 10:10:46,587 [Worker #95a1debd] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #95a1debd' was stopped due to a shutdown request.
+2016-10-18 10:10:46,587 [Worker #8b57d525] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8b57d525' was stopped due to a shutdown request.
+2016-10-18 10:10:46,591 [Worker #8b57d525] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8b57d525' stopped.
+2016-10-18 10:10:46,591 [Worker #95a1debd] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #95a1debd' stopped.
+2016-10-18 10:10:46,588 [Worker #80b1c0c2] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #80b1c0c2' was stopped due to a shutdown request.
+2016-10-18 10:10:46,591 [Worker #80b1c0c2] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #80b1c0c2' stopped.
+2016-10-18 10:10:46,590 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' was stopped due to a shutdown request.
+2016-10-18 10:10:46,592 [RecurringJobScheduler] DEBUG Hangfire.Server.RecurringJobScheduler [(null)] - Background process 'RecurringJobScheduler' stopped.
+2016-10-18 10:10:46,588 [Worker #5faad4a6] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #5faad4a6' was stopped due to a shutdown request.
+2016-10-18 10:10:46,588 [Worker #292336ba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #292336ba' was stopped due to a shutdown request.
+2016-10-18 10:10:46,592 [Worker #292336ba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #292336ba' stopped.
+2016-10-18 10:10:46,588 [Worker #745f2485] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #745f2485' was stopped due to a shutdown request.
+2016-10-18 10:10:46,589 [Worker #dba3dcba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dba3dcba' was stopped due to a shutdown request.
+2016-10-18 10:10:46,593 [Worker #dba3dcba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #dba3dcba' stopped.
+2016-10-18 10:10:46,593 [Worker #745f2485] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #745f2485' stopped.
+2016-10-18 10:10:46,589 [Worker #3eb4cdba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3eb4cdba' was stopped due to a shutdown request.
+2016-10-18 10:10:46,593 [Worker #3eb4cdba] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #3eb4cdba' stopped.
+2016-10-18 10:10:46,590 [ServerWatchdog] DEBUG Hangfire.Server.ServerWatchdog [(null)] - Background process 'ServerWatchdog' stopped.
+2016-10-18 10:10:46,590 [Worker #a5406f99] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #a5406f99' stopped.
+2016-10-18 10:10:46,587 [Worker #4ab7d742] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4ab7d742' was stopped due to a shutdown request.
+2016-10-18 10:10:46,594 [Worker #4ab7d742] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #4ab7d742' stopped.
+2016-10-18 10:10:46,588 [Worker #c2dd175e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c2dd175e' was stopped due to a shutdown request.
+2016-10-18 10:10:46,594 [Worker #c2dd175e] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #c2dd175e' stopped.
+2016-10-18 10:10:46,589 [Worker #f83e09c8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f83e09c8' was stopped due to a shutdown request.
+2016-10-18 10:10:46,589 [ServerHeartbeat] DEBUG Hangfire.Server.ServerHeartbeat [(null)] - Background process 'ServerHeartbeat' stopped.
+2016-10-18 10:10:46,590 [Hangfire.SqlServer.CountersAggregator] DEBUG Hangfire.SqlServer.CountersAggregator [(null)] - Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2016-10-18 10:10:46,589 [DelayedJobScheduler] DEBUG Hangfire.Server.DelayedJobScheduler [(null)] - Background process 'DelayedJobScheduler' stopped.
+2016-10-18 10:10:46,588 [Worker #16cdfb40] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #16cdfb40' was stopped due to a shutdown request.
+2016-10-18 10:10:46,595 [Worker #16cdfb40] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #16cdfb40' stopped.
+2016-10-18 10:10:46,592 [Worker #5faad4a6] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #5faad4a6' stopped.
+2016-10-18 10:10:46,589 [Worker #02304108] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #02304108' was stopped due to a shutdown request.
+2016-10-18 10:10:46,595 [Worker #02304108] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #02304108' stopped.
+2016-10-18 10:10:46,588 [Worker #f9e9888a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f9e9888a' was stopped due to a shutdown request.
+2016-10-18 10:10:46,597 [Worker #f9e9888a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f9e9888a' stopped.
+2016-10-18 10:10:46,588 [Worker #bdf6b3cc] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bdf6b3cc' was stopped due to a shutdown request.
+2016-10-18 10:10:46,598 [Worker #bdf6b3cc] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #bdf6b3cc' stopped.
+2016-10-18 10:10:46,589 [Worker #2c372491] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2c372491' was stopped due to a shutdown request.
+2016-10-18 10:10:46,598 [Worker #2c372491] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #2c372491' stopped.
+2016-10-18 10:10:46,590 [Hangfire.SqlServer.ExpirationManager] DEBUG Hangfire.SqlServer.ExpirationManager [(null)] - Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2016-10-18 10:10:46,588 [Worker #adcb440a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #adcb440a' was stopped due to a shutdown request.
+2016-10-18 10:10:46,589 [Worker #8c1158cb] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8c1158cb' was stopped due to a shutdown request.
+2016-10-18 10:10:46,599 [Worker #8c1158cb] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #8c1158cb' stopped.
+2016-10-18 10:10:46,599 [Worker #adcb440a] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #adcb440a' stopped.
+2016-10-18 10:10:46,594 [Worker #f83e09c8] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #f83e09c8' stopped.
+2016-10-18 10:10:46,589 [Worker #daeca9d7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #daeca9d7' was stopped due to a shutdown request.
+2016-10-18 10:10:46,599 [Worker #daeca9d7] DEBUG Hangfire.Server.Worker [(null)] - Background process 'Worker #daeca9d7' stopped.
+2016-10-18 10:10:46,604 [BackgroundProcessingServer] DEBUG Hangfire.Server.BackgroundProcessingServer [(null)] - Background process 'BackgroundProcessingServer' stopped.
+2016-10-18 10:10:46,606 [68] INFO  Hangfire.BackgroundJobServer [(null)] - Hangfire Server stopped.

@@ -263,6 +263,7 @@
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\V1\CommonController.cs" />
     <Compile Include="Controllers\V1\ContactController.cs" />
+    <Compile Include="Controllers\V1\ContactListController.cs" />
     <Compile Include="Controllers\V1\EmailController.cs" />
     <Compile Include="Controllers\V1\SafetySettingController.cs" />
     <Compile Include="Controllers\V1\SosGeoLocationController.cs" />
@@ -273,6 +274,7 @@
     </Compile>
     <Compile Include="Helpers\MyRestrictiveAuthorizationFilter.cs" />
     <Compile Include="Models\Common\CommonModel.cs" />
+    <Compile Include="Models\ContactList\ContactListAddModel.cs" />
     <Compile Include="Models\SafetySetting\ListContactResponseModel.cs" />
     <Compile Include="Models\Contact\ContactModel.cs" />
     <Compile Include="Models\SafetySetting\SafetySettingModel.cs" />
@@ -311,6 +313,7 @@
     <Folder Include="App_Data\Functions\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Validations\" />
+    <Folder Include="Views\ContactList\" />
     <Folder Include="Views\Email\" />
   </ItemGroup>
   <ItemGroup>

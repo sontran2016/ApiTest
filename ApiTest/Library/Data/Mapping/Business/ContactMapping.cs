@@ -15,15 +15,5 @@ namespace Data.Mapping.Business
         }
     }
 
-    public class ExcelInfoMapping : EntityTypeConfiguration<ExcelInfo>
-    {
-        public ExcelInfoMapping()
-        {
-            // Primary Key
-            //HasKey(t => t.Id);
-            //HasOptional(t => t.SafetySetting).WithMany(t => t.Contacts).HasForeignKey(t => t.SafetySettingId);
-            // Table & Column Mappings
-            ToTable("ExcelInfo");
-        }
-    }
+    
 }

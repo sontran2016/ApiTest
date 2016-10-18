@@ -210,6 +210,65 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:API.Controllers.V1.ContactListController">
+            <summary>
+            ContactList
+            </summary>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.#ctor(Service.Interface.Business.IContactListService)">
+            <summary>
+            ContactList Controller
+            </summary>
+            <param name="contactListService"></param>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get a Contact
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.CreateContactList(API.Models.ContactList.ContactListAddModel)">
+            <summary>
+            Add ContactList
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.UpdateContactList(API.Models.ContactList.ContactListEditModel)">
+            <summary>
+            Update ContactList
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.DeleteContactList(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.V1.ContactListController.GetListContactList(System.Int32,System.Int32,System.String,System.String,System.Boolean)">
+            <summary>
+            Get List ContactList
+            </summary>
+            <remarks>
+            For native device, add "Authorization: Basic xxx" into Header of request.
+            </remarks>
+            <param name="countSkip"></param>
+            <param name="pageSize"></param>
+            <param name="keyword"></param>
+            <param name="keySort"></param>
+            <param name="orderDescending"></param>
+            <returns></returns>
+        </member>
         <member name="T:API.Controllers.V1.EmailController">
             <summary>
             
